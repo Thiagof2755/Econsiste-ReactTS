@@ -1,0 +1,19 @@
+
+.Container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+h1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: normal;
+}

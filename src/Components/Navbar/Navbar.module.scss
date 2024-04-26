@@ -1,0 +1,84 @@
+@import '../../index.scss';
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    max-height: 10vh;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.Menu{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+
+    
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+    img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+}
+.ButtonContainer {
+
+    .Icon {
+        margin-right: 5px;
+    }
+
+
+}
+
+.Button {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background-color: $azul-escuro-medio; /* Altere a cor de fundo conforme necessário */
+    color: white;
+    text-decoration: none;
+
+}
+
+.Button:hover {
+    color: white;
+    scale: 1.04;
+    transition: 0.5s;
+}
+
+a {
+    
+    color: $azul-escuro;
+    text-decoration: none;
+    padding: 30px;
+    cursor: default;
+
+}
+a:hover {
+    color: $azul-escuro;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
