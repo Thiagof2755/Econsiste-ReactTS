@@ -1,5 +1,5 @@
 import Style from './About.module.scss';
-import Card from '../../../../Components/Card';
+import Card from '../../../Components/Card';
 import ImgTeste from './assets/IMGINOVACAO.jpeg';
 
 const About = () => {
