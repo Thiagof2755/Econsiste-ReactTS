@@ -1,7 +1,7 @@
 import { CardProps } from '../../Types/Card';
 import Style from './Card.module.scss'
 
-const Card = ({ imageUrl, title, description, link }:CardProps) => {
+const Card = ({ imageUrl, title, description, }:CardProps) => {
     const containerStyle = {
         backgroundImage: `url(${imageUrl})`,
         backgroundSize: 'cover',
