@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // Import BrowserRouter, Routes, and Route
 import './index.scss'
-import App from "./App";
+import App from "./App.tsx";
 
 import Home from "./Pages/Home";
 
