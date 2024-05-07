@@ -1,0 +1,48 @@
+@import '../../index.scss';
+.Container {
+background-color: $azul-escuro;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Box{
+
+    display: flex;
+    flex-direction: Space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.Space{
+    flex-direction: column;
+    padding-top: 20px ;
+    padding-bottom:20px;
+    padding-left: 5%;
+    width: 400px;
+
+
+}
+.Title{
+    color: #494949;
+    font-size: 1.5rem;
+
+
+
+}
+.Text{
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    padding:auto;
+
+}
+.Social{
+    display: flex;
+    font-size: 40px;
+    color: #fff;
+    justify-content: space-between;
+}
+.Icon {
+    margin-right: 5px;
+};

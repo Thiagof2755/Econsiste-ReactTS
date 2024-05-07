@@ -2,6 +2,7 @@ import Style from './Navbar.module.scss';
 import { IoCall } from "react-icons/io5";
 import Logo from '../../assets/LOGO.png'
 
+
 const Navbar = () => {
     const smoothScroll = (target: string) => {
         const element = document.querySelector(target) as HTMLElement;
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div className={Style.Container}>
             <ul className={Style.NavBar}>
                 <div className={Style.Logo}>
-                    <li><a href="/"  className={Style.Logo}><img src={Logo}alt="" />Econsiste</a></li>
+                    <li><a href="/"  className={Style.Logo}><img src={Logo}alt="" /></a></li>
                 </div>
                 <div className={Style.Menu}>
                     <li><a href="#Home" onClick={(e) => handleNavLinkClick(e, '#Home ')}>HOME</a></li>
