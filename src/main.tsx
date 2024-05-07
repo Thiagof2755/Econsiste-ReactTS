@@ -6,8 +6,8 @@ import App from "./App.tsx";
 
 import Home from "./Pages/Home";
 
-const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
-root.render(
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
@@ -18,5 +18,4 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>,
 );
-
 
